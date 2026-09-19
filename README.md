@@ -23,7 +23,7 @@ The system was developed as a submission for the Kaggle competition [Fake Job Po
 
 | Attribute | Detail |
 |-----------|--------|
-| Source | [Kaggle — Fake Job Posting](https://www.kaggle.com/competitions/fake-job-posting) |
+| Source | [Kaggle: Fake Job Posting](https://www.kaggle.com/competitions/fake-job-posting) |
 | Training rows | 12,001 |
 | Columns | 18 (text + binary + categorical) |
 | Target | `fraudulent` - 0 (Real) or 1 (Fake) |
