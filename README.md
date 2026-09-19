@@ -40,7 +40,7 @@ The system was developed as a submission for the Kaggle competition [Fake Job Po
 | has_company_logo | Binary | 1 if company logo present |
 | has_questions | Binary | 1 if screening questions included |
 | telecommuting | Binary | 1 if remote position |
-| fraudulent | Binary | **Target — 1 = Fake, 0 = Real** |
+| fraudulent | Binary | **Target - 1 = Fake, 0 = Real** |
 
 ---
 
@@ -69,7 +69,7 @@ The system was developed as a submission for the Kaggle competition [Fake Job Po
 | 2 | Random Forest | Ensemble (Bagging) | 0.7870 |
 | 3 | XGBoost | Ensemble (Boosting) | 0.7707 |
 | 4 | SVM (LinearSVC) | Support Vector Machine | 0.7981 |
-| 5 | Neural Network (MLP) | Neural Network | 0.8017 |
+| 5 | Neural Network (MLP) | Neural Network | 0.7890 |
 | 6 | **SVM (GridSearch Tuned)** | **Best Model** | **0.8058** |
 
 > **Primary metric: F1-Score** — Accuracy is misleading due to the 19.4:1 class imbalance.
@@ -172,7 +172,7 @@ The Streamlit app allows real-time fraud detection on new job postings.
 | Recall | 0.7034 |
 | F1-Score | **0.8058** |
 
-**5-Fold Cross-Validation:** Mean F1 = 0.8233 ± 0.0191 ✅ Stable
+**5-Fold Cross-Validation:** Mean F1 = 0.8233 ± 0.0191 Stable
 
 ---
 
