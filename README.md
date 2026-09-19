@@ -1,6 +1,6 @@
-# 🕵️ Fake Job Posting Detection
+# Fake Job Posting Detection
 
-> Computational Intelligence Module Assignment — Cardiff Metropolitan University
+> Computational Intelligence Module Assignment - Cardiff Metropolitan University
 > Binary classification system to detect fraudulent job postings using NLP and Machine Learning.
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 Online recruitment fraud is a growing global threat. This project builds a **binary classification system** that detects whether a job posting is **fraudulent (1)** or **legitimate (0)** using Natural Language Processing (NLP) and Machine Learning.
 
@@ -19,49 +19,14 @@ The system was developed as a submission for the Kaggle competition [Fake Job Po
 
 ---
 
-## 🗂️ Project Structure
-
-```
-Fake-Job-Posting-Detection/
-│
-├── Fake_Job_Detection_CI.ipynb    ← Main Jupyter notebook (EDA, training, evaluation)
-├── app.py                         ← Streamlit web application
-│
-├── Data/
-│   ├── train.csv                  ← Training dataset (download from Kaggle)
-│   └── test.csv                   ← Test dataset (download from Kaggle)
-│
-├── Models/
-│   ├── best_model.pkl             ← Saved best model (SVM GridSearch Tuned)
-│   ├── tfidf_vectorizer.pkl       ← Fitted TF-IDF vectoriser
-│   ├── numeric_cols.pkl           ← Numeric feature column list
-│   └── best_model_name.pkl        ← Best model name string
-│
-├── Submissions/
-│   ├── submission_1.csv           ← LR Baseline (No SMOTE)
-│   ├── submission_2.csv           ← LR + SMOTE
-│   ├── submission_3.csv           ← Random Forest + SMOTE
-│   ├── submission_4.csv           ← XGBoost + SMOTE
-│   ├── submission_5.csv           ← SVM Linear + SMOTE
-│   ├── submission_6.csv           ← Neural Network + SMOTE
-│   ├── submission_7.csv           ← LR GridSearch Tuned
-│   ├── submission_8.csv           ← SVM GridSearch Tuned (Best)
-│   └── submission_9.csv           ← RF RandomizedSearch Tuned
-│
-├── requirements.txt               ← Python dependencies
-└── README.md                      ← This file
-```
-
----
-
-## 📊 Dataset
+## Dataset
 
 | Attribute | Detail |
 |-----------|--------|
 | Source | [Kaggle — Fake Job Posting](https://www.kaggle.com/competitions/fake-job-posting) |
 | Training rows | 12,001 |
 | Columns | 18 (text + binary + categorical) |
-| Target | `fraudulent` — 0 (Real) or 1 (Fake) |
+| Target | `fraudulent` - 0 (Real) or 1 (Fake) |
 | Class imbalance | 95.1% Real vs 4.9% Fake (19.4:1 ratio) |
 
 **Key columns:**
@@ -79,7 +44,7 @@ Fake-Job-Posting-Detection/
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 
 | Category | Tools |
 |----------|-------|
@@ -96,7 +61,7 @@ Fake-Job-Posting-Detection/
 
 ---
 
-## 🤖 Models Trained
+## Models Trained
 
 | # | Model | Technique | F1 Score |
 |---|-------|-----------|----------|
@@ -111,7 +76,7 @@ Fake-Job-Posting-Detection/
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
 DATA LAYER
@@ -135,12 +100,12 @@ Kaggle submission.csv + Streamlit Web App
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/shareefdeen/fake-job-posting-detection.git
+git clone https://github.com/shareefdeen/Fake-Job-Posting-Detection.git
 cd fake-job-posting-detection
 ```
 
@@ -178,7 +143,7 @@ Opens at `http://localhost:8501`
 
 ---
 
-## 📱 Web Application
+## Web Application
 
 The Streamlit app allows real-time fraud detection on new job postings.
 
@@ -195,7 +160,7 @@ The Streamlit app allows real-time fraud detection on new job postings.
 
 ---
 
-## 📈 Results
+## Results
 
 **Best model: SVM (GridSearch Tuned)**
 
@@ -211,7 +176,7 @@ The Streamlit app allows real-time fraud detection on new job postings.
 
 ---
 
-## 📁 Requirements
+## Requirements
 
 ```
 pandas
@@ -235,7 +200,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📚 References
+## References
 
 - Vidros, S. et al. (2017). Automatic Detection of Online Recruitment Frauds. *Future Internet*, 9(1), 6. https://doi.org/10.3390/fi9010006
 - Chen, T. and Guestrin, C. (2016). XGBoost: A Scalable Tree Boosting System. *ACM SIGKDD*. https://doi.org/10.1145/2939672.2939785
@@ -244,7 +209,7 @@ pip install -r requirements.txt
 
 ---
 
-## 👤 Author
+## Author
 
 **Shareefdeen**
 Final-year BSc (Hons) Software Engineering Student
@@ -254,10 +219,10 @@ Cardiff Metropolitan University via ICBT Campus, Colombo, Sri Lanka
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
 
-*Developed for the Computational Intelligence (CI) Module — Cardiff Metropolitan University, 2026*
+*Developed for the Computational Intelligence (CI) Module - Cardiff Metropolitan University, 2026*
