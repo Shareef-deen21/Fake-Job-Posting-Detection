@@ -72,7 +72,7 @@ The system was developed as a submission for the Kaggle competition [Fake Job Po
 | 5 | Neural Network (MLP) | Neural Network | 0.7890 |
 | 6 | **SVM (GridSearch Tuned)** | **Best Model** | **0.8058** |
 
-> **Primary metric: F1-Score** — Accuracy is misleading due to the 19.4:1 class imbalance.
+> **Primary metric: F1-Score**, Accuracy is misleading due to the 19.4:1 class imbalance.
 
 ---
 
@@ -221,7 +221,7 @@ Cardiff Metropolitan University via ICBT Campus, Colombo, Sri Lanka
 
 ## License
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License, see the [LICENSE](LICENSE) file for details.
 
 ---
 
